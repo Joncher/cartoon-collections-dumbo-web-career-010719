@@ -18,8 +18,7 @@ def long_planeteer_calls (array)
       word = true
       binding.pry
     end
-  end  
-  
+    end  
 end
 
 def find_the_cheese# code an argument here
