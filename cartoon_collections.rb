@@ -25,7 +25,7 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   binding.pry
-  if array.include?(cheese_types.split) == true
+  if array.include?(cheese_types.join) == true
     
     return array & cheese_types
   else return nil
