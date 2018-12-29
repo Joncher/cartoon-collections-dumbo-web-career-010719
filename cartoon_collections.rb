@@ -4,15 +4,15 @@ def roll_call_dwarves (dwarves)
   end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
-end
-
-def long_planeteer_calls (elements)
-  elements.map do |element|
+def summon_captain_planet(elements)
+ elements.map do |element|
     element.capitalize
     element << "!"
   end
+end
+
+def long_planeteer_calls 
+  
 end
 
 def find_the_cheese# code an argument here
