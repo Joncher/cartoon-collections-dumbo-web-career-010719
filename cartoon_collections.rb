@@ -25,7 +25,7 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   binding.pry
-  if array & cheese_types == true
+  if array & cheese_types == false
     
     return array & cheese_types
   else return nil
