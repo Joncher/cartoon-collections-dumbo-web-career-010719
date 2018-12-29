@@ -26,6 +26,6 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   if [array & cheese_types].size > 0
     return array & cheese_types
-  else return nil
+  els return nil
   end
 end
