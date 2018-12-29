@@ -28,6 +28,6 @@ def find_the_cheese(array)
   if [array & cheese_types].size > 0
     array2 = array & cheese_types
     return array2.join
-  els return nil
+  else return nil
   end
 end
