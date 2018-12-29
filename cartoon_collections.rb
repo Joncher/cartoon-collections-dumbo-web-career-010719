@@ -24,8 +24,10 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  array2 = []
   if [array & cheese_types].size > 0
-    return array & cheese_types
+    array2 = array & cheese_types
+    return array2.join
   els return nil
   end
 end
