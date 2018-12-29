@@ -12,6 +12,7 @@ def long_planeteer_calls (elements)
   elements.map do |element|
     element.capitalize
     element << "!"
+  end
 end
 
 def find_the_cheese# code an argument here
